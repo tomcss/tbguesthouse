@@ -1,0 +1,130 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+img.headerlogo {
+    display: inline;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+.formbox {
+    background-color: #F3F3F3;
+    border-bottom: 2px solid #E7E7E7;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+input[type="text"] {
+    font-size: 1em;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    border: 2px solid #D0D0D0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 90%;
+    color: #555;
+}
+
+.button {
+    color: #555;
+    background-color: white;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0.5em;
+    height: 2.4em;
+    font-family: 'Lato', sans-serif;
+}
+
+.listspace {
+    background-color: #ECD203;
+    border-color: #ECD203;
+    padding: 0.5em 0.5em;
+    color: white;
+    margin: 0.5em 0;
+    height: 2.4em;
+    font-weight: 600;
+}
+
+.headerbutton {
+    text-transform: uppercase;
+    padding: 0.5em 0.5em;
+    margin: 0.5em 0.5em;
+    height: 2.4em;
+}
+
+.loginbutton {
+    background-color: #008EC1;
+    color           : white;
+    font-weight     : 600;
+    padding-left    : 1em;
+    padding-right   : 1em; 
+    margin-bottom   : 1.7em;
+}
+
+.noaccount {
+    color: #989898;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.topbar {
+    padding: 0.5em 0;
+}
+
+.director {
+    display: none;
+}
+
+.director-login {
+    display: box;
+}
+
+span.footer {
+    color: #989898;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+    padding-bottom: 4em}
+
+#footer {position: relative;
+    margin-top: -4em;
+    height: 2em;
+    padding: 1em 0;
+    clear:both;
+    text-align: center;
+} 
+
+/*Opera Fix*/
+body:before {
+    content:"";
+    height:100%;
+    float:left;
+    width:0;
+    margin-top:-32767px;/
+}
+
+section.title {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding-top: 2.5em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    text-shadow: 0px 0px 4px rgba(50, 50, 50, 1);
+}
